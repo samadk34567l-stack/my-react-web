@@ -68,3 +68,4 @@ shopco/
 - Real backend/cart persistence ke liye `CartContext.jsx` ko `localStorage` ya API se jod dein.
 - Har product ke liye ek `ProductDetail` page bana kar React Router add kar sakte hain.
 - Checkout button ko Stripe/real payment gateway se connect kar sakte hain.
+"# my-React-web" 
