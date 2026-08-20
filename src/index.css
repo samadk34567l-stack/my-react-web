@@ -331,18 +331,26 @@ img {
   padding: 0;
   margin: 0;
 }
-.hero-inner {
+hero-inner {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 20px;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 50px 20px 0;
+  flex-wrap: wrap;
 }
 
-.hero_image {
+.hero-image {
+  flex: 1;
+  min-width: 320px;
+  position: relative;
+}
+.hero-image img {
   width: 100%;
-  height: 550px;
-  border-radius: var(--radius-md);
+  border-radius: 8px;
   object-fit: cover;
-  object-position: right center;
+  aspect-ratio: 1/0.95;
 }
 .hero-content {
   flex: 1;
