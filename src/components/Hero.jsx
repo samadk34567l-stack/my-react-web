@@ -32,7 +32,7 @@ export default function Hero() {
         </div>
 
         <div className="hero-image">
-          <img src="https://picsum.photos/seed/heroclothes/700/700" alt="Models wearing latest fashion" />
+          <img src="/hero.png" alt="Models wearing latest fashion" />
           <span className="sparkle sparkle-1">✦</span>
           <span className="sparkle sparkle-2">✦</span>
         </div>
