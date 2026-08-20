@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { dressStyles } from "../data/products.js";
-
 export default function DressStyle() {
   return (
     <section className="dress-style-section">
@@ -13,7 +12,6 @@ export default function DressStyle() {
               className={`dress-style-card style-${style.id}`}
               key={style.id}
             >
-              <span className="dress-style-label">{style.label}</span>
               <img src={style.image} alt={style.label} />
             </Link>
           ))}
