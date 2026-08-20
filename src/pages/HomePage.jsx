@@ -3,7 +3,6 @@ import Brands from "../components/Brands.jsx";
 import ProductSection from "../components/ProductSection.jsx";
 import DressStyle from "../components/DressStyle.jsx";
 import Testimonials from "../components/Testimonials.jsx";
-import Newsletter from "../components/Newsletter.jsx";
 import { newArrivals, topSelling } from "../data/products.js";
 
 export default function HomePage() {
@@ -16,7 +15,6 @@ export default function HomePage() {
       <ProductSection id="topselling" title="TOP SELLING" products={topSelling} />
       <DressStyle />
       <Testimonials />
-      <Newsletter />
     </>
   );
 }
