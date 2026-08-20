@@ -1,3 +1,5 @@
+
+ 
 :root {
   --black: #0d0d0d;
   --white: #ffffff;
@@ -877,9 +879,23 @@ img {
   .dress-style-grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 260px);
+    gap: 20px;
   }
-  .style-casual, .style-formal, .style-party, .style-gym {
+  .style-casual {
     grid-column: 1;
+    grid-row: 1;
+  }
+  .style-formal {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .style-party {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .style-gym {
+    grid-column: 1;
+    grid-row: 4;
   }
 }
 
