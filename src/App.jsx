@@ -4,6 +4,7 @@ import { CartProvider } from "./context/CartContext.jsx";
 import AnnouncementBar from "./components/AnnouncementBar.jsx";
 import Header from "./components/Header.jsx";
 import CartDrawer from "./components/CartDrawer.jsx";
+import Newsletter from "./components/Newsletter.jsx";
 import Footer from "./components/Footer.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import ProductDetail from "./pages/ProductDetail.jsx";
@@ -28,6 +29,7 @@ export default function App() {
         </Routes>
       </main>
 
+      <Newsletter />
       <Footer />
     </CartProvider>
   );
